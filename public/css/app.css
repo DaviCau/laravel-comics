@@ -1,0 +1,74 @@
+@import url(https://fonts.googleapis.com/css2?family=Roboto:wght@400;
+
+700&display=swap);* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Roboto", sans-serif;
+}
+
+.container {
+  width: 70%;
+  margin: auto;
+}
+
+.main-content {
+  background-color: #1c1c1c;
+  color: white;
+}
+
+.main-content .load-more {
+  display: flex;
+  justify-content: center;
+  padding-bottom: 25px;
+}
+
+.main-content .load-more button {
+  padding: 10px 50px;
+  color: white;
+  font-weight: bold;
+  font-size: 14px;
+  background-color: #0282f9;
+  border: transparent;
+}
+
+.main-content .comics-container {
+  position: relative;
+  padding-top: 50px;
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+}
+
+.main-content .comics-container h2 {
+  position: absolute;
+  top: 0;
+  left: 0;
+  transform: translateY(-50%);
+  padding: 10px 25px;
+  font-size: 30px;
+  background-color: #0282f9;
+}
+
+.main-content .comics-container .card {
+  width: 15%;
+  margin-bottom: 50px;
+}
+
+.main-content .comics-container .card img {
+  height: 200px;
+  width: 100%;
+  -o-object-fit: cover;
+     object-fit: cover;
+  -o-object-position: top;
+     object-position: top;
+}
+
+.main-content .comics-container .card figcaption {
+  text-transform: uppercase;
+  margin-top: 20px;
+}
+
