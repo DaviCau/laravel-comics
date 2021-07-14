@@ -72,3 +72,138 @@ body {
   margin-top: 20px;
 }
 
+.footer-container {
+  display: flex;
+  justify-content: space-between;
+}
+
+.footer-top {
+  background-size: cover;
+  height: 370px;
+  overflow: hidden;
+}
+
+.footer-top .links {
+  height: 370px;
+  margin: 15px 0 50px;
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+}
+
+.footer-top .links ul {
+  list-style: none;
+  margin-right: 50px;
+}
+
+.footer-top .links ul .list-title {
+  color: white;
+  font-weight: bold;
+  font-size: 20px;
+  padding: 20px 0 15px;
+}
+
+.footer-top .links ul a {
+  color: rgba(255, 255, 255, 0.7);
+  text-decoration: none;
+  font-size: 12px;
+}
+
+.footer-top .links ul a:hover {
+  text-decoration: underline;
+}
+
+.footer-top .logo-bg {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 370px;
+}
+
+.footer-bottom {
+  background-color: #303030;
+  padding: 30px;
+}
+
+.footer-bottom .sign-up button {
+  background-color: transparent;
+  padding: 15px;
+  border: solid 3px #0282f9;
+  color: white;
+  text-transform: uppercase;
+  font-weight: bold;
+  font-size: 16px;
+}
+
+.footer-bottom .socials {
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  width: 30%;
+}
+
+.footer-bottom .socials .social-links {
+  width: 100%;
+  list-style: none;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.footer-bottom .socials .social-links .list-title {
+  color: #0282f9;
+  font-size: 20px;
+  font-weight: bold;
+  text-transform: uppercase;
+}
+
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: 120px;
+  background-color: white;
+}
+
+.header img {
+  height: 80px;
+}
+
+.header .nav ul {
+  list-style: none;
+  display: flex;
+  justify-content: flex-end;
+}
+
+.header .nav ul li {
+  margin: 0 15px;
+}
+
+.header .nav ul li a {
+  height: 120px;
+  font-size: 14px;
+  text-decoration: none;
+  text-transform: uppercase;
+  font-weight: bold;
+  color: white;
+  border-top: solid 5px transparent;
+  border-bottom: solid 5px transparent;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.header .nav ul li a:hover {
+  color: #0282f9;
+  border-bottom: solid 5px #0282f9;
+}
+
+.header .nav ul li a .active {
+  color: #0282f9;
+  border-bottom: solid 5px #0282f9;
+}
+
+.jumbotron {
+  height: 400px;
+}
+
